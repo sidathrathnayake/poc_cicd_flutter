@@ -59,11 +59,14 @@ class CICDHome extends StatelessWidget {
                     width: double.infinity,
                     height: 50,
                   ),
-                  Text(
-                    'There are a number of continuous integration (CI) and continuous delivery (CD) options available to help automate the delivery of your application.',
-                    style:
-                        TextStyle(fontSize: 25, fontWeight: FontWeight.normal),
-                  ),
+                  Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      'Codemagic and Appcircle were used to build this Flutter CI/CD Pipeline POC.',
+                      style: TextStyle(
+                          fontSize: 20, fontWeight: FontWeight.normal),
+                    ),
+                  )
                 ],
               )),
             ])));
